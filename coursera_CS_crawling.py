@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 import urllib.request
 import time
 import selenium
@@ -26,17 +26,29 @@ preMaxPage = driver.find_elements(By.CLASS_NAME, 'number')
 maxPage = preMaxPage[-1].find_element(By.CLASS_NAME, 'cds-33').text
 lectureList = []
 
-lectureID = 0
-tagID = 0
-curID = 0
-reviewID = 0
+# c.execute('select max(lecture.id) from lecture')
+# lectureID = int(c.fetchall()[0][0]) + 1
+# c.execute('select max(tag.id) from tag')
+# tagID = int(c.fetchall()[0][0]) + 1
+# c.execute('select max(cur.id) from cur')
+# curID = int(c.fetchall()[0][0]) + 1
+# c.execute('select max(review.id) from review')
+# reviewID = int(c.fetchall()[0][0]) + 1
+
+lectureID = 2326
+tagID = 4395
+curID = 14605
+reviewID = 105314
 
 print(maxPage)
+print(lectureID)
+print(tagID)
+print(curID)
+print(reviewID)
 
 for page in range(1, int(maxPage)+1):
-    URL = 'https://www.coursera.org/search?query=computer%20science&page=' + str(page) + '&index=prod_all_products_term_optimization_updated_ltv'
+    URL = 'https://www.coursera.org/search?query=computer%20science&page=' + str(page) + '&index=prod_all_launched_products_term_optimization'
     soup = BeautifulSoup(urlopen(URL), 'html.parser')
-    time.sleep(2)
     driver.get(URL)
 
     try:
@@ -47,6 +59,7 @@ for page in range(1, int(maxPage)+1):
         print("time out")
     finally:
         pass
+    time.sleep(2)
 
     for a in driver.find_elements(By.CLASS_NAME, 'css-1pa69gt'):
         try:
@@ -59,6 +72,7 @@ for page in range(1, int(maxPage)+1):
             print("time out")
         finally:
             pass
+        time.sleep(2)
 
         innerURL = a.find_element(By.CSS_SELECTOR, 'div > a').get_attribute('href')
         innerSoup = BeautifulSoup(urlopen(innerURL), 'html.parser')
@@ -87,14 +101,22 @@ for page in range(1, int(maxPage)+1):
         lecturer = lecturer[:-2]
         print(lecturer)
 
+        length = ''
+
+        try:
+            c.execute("INSERT INTO lecture VALUES(" + str(lectureID) + ", '"  + name.replace("'", "").replace('"', "") + "', " + str(star) + ", " + str(regCount) + ", " + str(0) + ", '" + str(lecturer) + "', '" + str('')  + "')")
+            conn.commit()
+        except sqlite3.IntegrityError:
+                pass
+
         tag = []
         for _ in innerSoup.select('._ontdeqt'):
             tag.append(str(_.string).strip())
-            # try:
-            #     c.execute("INSERT INTO tag values(" + str(tagID) + ", "  + str(lectureID) + ", '" + str(_.string).strip().replace("'", "").replace('"', "") + "')")
-            #     conn.commit()
-            # except sqlite3.IntegrityError:
-            #     pass
+            try:
+                c.execute("INSERT INTO tag values(" + str(tagID) + ", "  + str(lectureID) + ", '" + str(_.string).strip().replace("'", "").replace('"', "") + "')")
+                conn.commit()
+            except sqlite3.IntegrityError:
+                pass
             tagID = tagID + 1
         print(tag)
 
@@ -102,20 +124,20 @@ for page in range(1, int(maxPage)+1):
         if (len(innerSoup.select('._1tqo7r77 > div > h3')) != 0):
             for _ in innerSoup.select('._1tqo7r77 > div > h3'):
                 curriculum.append(str(_.string).strip())
-                # try:
-                #     c.execute("INSERT INTO cur values(" + str(curID) + ", "  + str(lectureID) + ", '" + str(_.string).strip().replace("'", "").replace('"', "") + "')")
-                #     conn.commit()
-                # except sqlite3.IntegrityError:
-                #     pass
+                try:
+                    c.execute("INSERT INTO cur values(" + str(curID) + ", "  + str(lectureID) + ", '" + str(_.string).strip().replace("'", "").replace('"', "") + "')")
+                    conn.commit()
+                except sqlite3.IntegrityError:
+                    pass
                 curID = curID + 1
         elif (len(innerSoup.select('._1tqo7r77 > a > div > h3')) != 0):
             for _ in innerSoup.select('._1tqo7r77 > a > div > h3'):
                 curriculum.append(str(_.string).strip())
-                # try:
-                #     c.execute("INSERT INTO cur values(" + str(curID) + ", "  + str(lectureID) + ", '" + str(_.string).strip().replace("'", "").replace('"', "") + "')")
-                #     conn.commit()
-                # except sqlite3.IntegrityError:
-                #     pass
+                try:
+                    c.execute("INSERT INTO cur values(" + str(curID) + ", "  + str(lectureID) + ", '" + str(_.string).strip().replace("'", "").replace('"', "") + "')")
+                    conn.commit()
+                except sqlite3.IntegrityError:
+                    pass
                 curID = curID + 1
         print(curriculum)
 
@@ -139,7 +161,6 @@ for page in range(1, int(maxPage)+1):
 
             print("reviewMaxPage : " + str(reviewMaxPage))
             
-            reviewCount = 0
             for reviewPage in range(1, int(reviewMaxPage)+1):
                 innerReviewURL = reviewURL + '?page=' + str(reviewPage)
                 innerReviewSoup = BeautifulSoup(urlopen(innerReviewURL), 'html.parser')
@@ -149,19 +170,35 @@ for page in range(1, int(maxPage)+1):
                 starList = []
                 reviewList = []
 
+                reviewCount = 0
+                checkCount = 0
+
                 for _ in reviewDriver.find_elements(By.CSS_SELECTOR, '.rc-ReviewsContainer > .rc-ReviewsList > div > div > .css-1cyk8pe'):
-                    # starList.append(int(str(_.text).strip()))
-                    print("Filled Star : " + str(_.text.count("Filled Star")))
-                # for _ in reviewDriver.find_elements(By.CSS_SELECTOR, '.rc-ReviewsContainer > .rc-ReviewsList > div > div > .reviewText'):
-                #     print(str(_.text).strip().replace("'", "").replace('"', ""))
-                #     reviewList.append(str(_.text).strip().replace("'", "").replace('"', ""))
-                #     reviewCount = reviewCount + 1
+                    starList.append(int(str(_.text.count("Filled Star"))))
+                    # print("Filled Star : " + str(_.text.count("Filled Star")))
+                    checkCount = checkCount + 1
+                for _ in reviewDriver.find_elements(By.CSS_SELECTOR, '.rc-ReviewsContainer > .rc-ReviewsList > div > div > .reviewText'):
+                    # print(str(_.text).strip().replace("'", "").replace('"', ""))
+                    reviewList.append(str(_.text).strip().replace("'", "").replace('"', ""))
+                    reviewCount = reviewCount + 1
+                print(str(checkCount) + " " + str(reviewCount) + " " + str(checkCount == reviewCount))
+                for i in range(reviewCount):
+                    try:
+                        c.execute("INSERT INTO review values(" + str(reviewID) + ", "  + str(lectureID) + ", " + str(starList[i]) + ", '" + reviewList[i] + "')")
+                        conn.commit()
+                    except sqlite3.IntegrityError:
+                        pass
+                    reviewID = reviewID + 1
             print(reviewList)
 
         except HTTPError as e:
             err = e.read()
             code = e.getcode()
             print(code) ## 404
+            pass
+
+        except URLError as e:
+            print("No URL")
             pass
 
         lectureID = lectureID + 1

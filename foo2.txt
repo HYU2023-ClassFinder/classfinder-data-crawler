@@ -1,0 +1,138 @@
+<div class="component-margin">
+ <span class="in-page-offset-anchor" id="objective">
+ </span>
+ <div class="skeleton--skeleton--2Uy2W ud-text-skeleton text-skeleton--text-skeleton--MpfT7 curriculum--curriculum-loader--3dPxf">
+  <span class="block--block--1xkEI ud-text-skeleton-title text-skeleton--title--lpzLl">
+  </span>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <p>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+   <span class="block--block--1xkEI ud-text-skeleton-line text-skeleton--line--2gwFG">
+   </span>
+  </p>
+  <div class="skeleton--shine--2LRqN">
+  </div>
+ </div>
+</div>

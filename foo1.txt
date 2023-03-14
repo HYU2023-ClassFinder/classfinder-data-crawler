@@ -1,0 +1,92 @@
+<div class="ud-text-sm component-margin styles--description--33-vq" data-purpose="course-description">
+ <h2 class="ud-heading-xl styles--description__header--2Z7Vb" data-purpose="description-title">
+  설명
+ </h2>
+ <div class="show-more--container--1bpj2">
+  <span data-checked="" data-type="checkbox" id="u249-show-more--6" style="display:none">
+  </span>
+  <div class="show-more--content--3WBXb show-more--with-gradient--qNzPb" style="max-height:22.1rem">
+   <div tabindex="-1">
+    <div data-purpose="safely-set-inner-html:description:description">
+     <p>
+      A high paced hands on course on AWS. Complete with in depth professional course notes.
+     </p>
+     <p>
+      Subtitles for 24 languages.
+     </p>
+     <p>
+      Learn how to do common tasks:
+     </p>
+     <ul>
+      <li>
+       <p>
+        Create an AWS EC2 WordPress Web server;
+       </p>
+      </li>
+      <li>
+       <p>
+        Launch and connect to an AWS RDS relational database server;
+       </p>
+      </li>
+      <li>
+       <p>
+        Create a highly available and fault tolerant back-end for NodeJS applications with AWS Elastic Beanstalk;
+       </p>
+      </li>
+      <li>
+       <p>
+        Store and retrieve files from AWS S3;
+       </p>
+      </li>
+      <li>
+       <p>
+        Send email with AWS SES;
+       </p>
+      </li>
+      <li>
+       <p>
+        Create Alarms with AWS CloudWatch; and
+       </p>
+      </li>
+      <li>
+       <p>
+        Use the AWS Command Line Interface.
+       </p>
+      </li>
+     </ul>
+     <p>
+      This is the first section of our popular AWS Certified Associate course.
+     </p>
+    </div>
+    <div class="styles--audience--2xuzW" data-purpose="target-audience">
+     <h2 class="ud-heading-xl styles--audience__title--1qhlO">
+      이 강의의 대상:
+     </h2>
+     <ul class="styles--audience__list--16EaN">
+      <li>
+       Anyone who wants to learn how to use Amazon Web Services
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+  <button aria-label="설명 더 보기" class="ud-btn ud-btn-medium ud-btn-ghost ud-heading-sm show-more--focusable-label--2H5YI" data-css-toggle-id="u249-show-more--6" type="button">
+   <span>
+    <span class="show-more--show-more--JJW4Q">
+     더 보기
+    </span>
+    <span class="show-more--show-less--3x4Ei">
+     적게 보기
+    </span>
+   </span>
+   <svg aria-hidden="true" class="ud-icon ud-icon-xsmall show-more--show-more--JJW4Q" focusable="false">
+    <use xlink:href="#icon-expand">
+    </use>
+   </svg>
+   <svg aria-hidden="true" class="ud-icon ud-icon-xsmall show-more--show-less--3x4Ei" focusable="false">
+    <use xlink:href="#icon-collapse">
+    </use>
+   </svg>
+  </button>
+ </div>
+</div>

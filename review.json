@@ -1,0 +1,258 @@
+{
+	"count": 839,
+	"next": "https://www.udemy.com/api-2.0/courses/1331946/reviews/?courseId=1331946&fields%5Bcourse_review%5D=%40default%2Cresponse%2Ccontent_html%2Ccreated_formatted_with_time_since&fields%5Bcourse_review_response%5D=%40min%2Cuser%2Ccontent_html%2Ccreated_formatted_with_time_since&fields%5Buser%5D=%40min%2Cimage_50x50%2Cinitials%2Cpublic_display_name%2Ctracking_id&is_text_review=1&ordering=course_review_score__rank%2C-created&page=2",
+	"previous": null,
+	"results": [{
+		"_class": "course_review",
+		"id": 137201516,
+		"content": "Instructor is a teacher who gives a well explained example through LAB sessions and allows content retention for all learnt techniques",
+		"rating": 5.0,
+		"created": "2023-03-04T13:23:20-08:00",
+		"modified": "2023-03-05T15:06:34-08:00",
+		"user_modified": "2023-03-04T14:04:15-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Sheu Ganiu",
+			"name": "Sheu",
+			"display_name": "Sheu Ganiu",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "SG",
+			"tracking_id": "_5HgsuJLRZexA2m4UcENcA",
+			"public_display_name": "Sheu G."
+		},
+		"response": null,
+		"content_html": "<p>Instructor is a teacher who gives a well explained example through LAB sessions and allows content retention for all learnt techniques</p>",
+		"created_formatted_with_time_since": "6일 전"
+	}, {
+		"_class": "course_review",
+		"id": 136286278,
+		"content": "I think the course has good information but could be better organized. Some things make sense until later.\n\"Labs\" are very simple, I expected more in-depth content, as some sections are named \"Lab Session...\"",
+		"rating": 3.0,
+		"created": "2023-02-21T10:35:06-08:00",
+		"modified": "2023-02-22T15:06:27-08:00",
+		"user_modified": "2023-02-21T10:53:15-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Juan Carlos Castellanos",
+			"name": "Juan Carlos",
+			"display_name": "Juan Carlos Castellanos",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "JC",
+			"tracking_id": "rU3kpsPWRSmkWGG2rifAZw",
+			"public_display_name": "Juan Carlos C."
+		},
+		"response": null,
+		"content_html": "<p>I think the course has good information but could be better organized. Some things make sense until later.<br>\"Labs\" are very simple, I expected more in-depth content, as some sections are named \"Lab Session...\"</p>",
+		"created_formatted_with_time_since": "2주 전"
+	}, {
+		"_class": "course_review",
+		"id": 136011900,
+		"content": "It is well organized entry-level course. The only reason I take off half-star is the lab notes are not up to date. The differences are something that we can figure out ourselves.",
+		"rating": 4.5,
+		"created": "2023-02-17T17:30:37-08:00",
+		"modified": "2023-02-18T15:05:01-08:00",
+		"user_modified": "2023-02-17T17:36:42-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Lawrence Lam",
+			"name": "Lawrence",
+			"display_name": "Lawrence Lam",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "LL",
+			"tracking_id": "bLwr-UwtRZmpXB4m9sg24Q",
+			"public_display_name": "Lawrence L."
+		},
+		"response": null,
+		"content_html": "<p>It is well organized entry-level course. The only reason I take off half-star is the lab notes are not up to date. The differences are something that we can figure out ourselves.</p>",
+		"created_formatted_with_time_since": "2주 전"
+	}, {
+		"_class": "course_review",
+		"id": 135456180,
+		"content": "Awesome explanation of cloud concepts!!!\nI'll highly recommend to anyone.",
+		"rating": 4.5,
+		"created": "2023-02-10T19:49:23-08:00",
+		"modified": "2023-02-11T15:05:16-08:00",
+		"user_modified": "2023-02-10T23:43:20-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Joseph Annoh",
+			"name": "Joseph",
+			"display_name": "Joseph Annoh",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "JA",
+			"tracking_id": "JmS8WR4CQJ2FKFRMToT74A",
+			"public_display_name": "Joseph A."
+		},
+		"response": null,
+		"content_html": "<p>Awesome explanation of cloud concepts!!!<br>I'll highly recommend to anyone.</p>",
+		"created_formatted_with_time_since": "3주 전"
+	}, {
+		"_class": "course_review",
+		"id": 132202354,
+		"content": "Excellent method teacing. Gave really good intriduction to the whole AWS game. Although interface is a little outdated (2018-ish), I was able to find my way around in 2022",
+		"rating": 5.0,
+		"created": "2023-01-02T16:33:04-08:00",
+		"modified": "2023-01-03T15:14:59-08:00",
+		"user_modified": "2023-01-02T16:34:16-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Martins Olu-Omotayo",
+			"name": "Martins",
+			"display_name": "Martins Olu-Omotayo",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/61677420_58c4.jpg",
+			"initials": "MO",
+			"tracking_id": "Yj9SSQ_XSlaGhhmgkTMTXQ",
+			"public_display_name": "Martins O."
+		},
+		"response": null,
+		"content_html": "<p>Excellent method teacing. Gave really good intriduction to the whole AWS game. Although interface is a little outdated (2018-ish), I was able to find my way around in 2022</p>",
+		"created_formatted_with_time_since": "2개월 전"
+	}, {
+		"_class": "course_review",
+		"id": 135927564,
+		"content": "Back space stuff is good, but they seem to have abandoned their online courses which is a shame. Great stuff but it's becoming outdated.",
+		"rating": 3.5,
+		"created": "2023-02-16T15:12:34-08:00",
+		"modified": "2023-02-17T15:07:46-08:00",
+		"user_modified": "2023-02-16T15:13:32-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Kristian Lewis",
+			"name": "Kristian",
+			"display_name": "Kristian Lewis",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "KL",
+			"tracking_id": "rEnObMJ0QS6O2yI9T8nSqA",
+			"public_display_name": "Kristian L."
+		},
+		"response": null,
+		"content_html": "<p>Back space stuff is good, but they seem to have abandoned their online courses which is a shame. Great stuff but it's becoming outdated.</p>",
+		"created_formatted_with_time_since": "3주 전"
+	}, {
+		"_class": "course_review",
+		"id": 135489820,
+		"content": "I have a good knowledge about AWS now compare to previous",
+		"rating": 5.0,
+		"created": "2023-02-11T10:27:16-08:00",
+		"modified": "2023-02-12T15:06:10-08:00",
+		"user_modified": "2023-02-11T10:28:12-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Kalipatnapu Swathi Chandana",
+			"name": "Kalipatnapu Swathi",
+			"display_name": "Kalipatnapu Swathi Chandana",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "KC",
+			"tracking_id": "yk9rYaHiQgGEr-CWtERjTg",
+			"public_display_name": "Kalipatnapu Swathi C."
+		},
+		"response": null,
+		"content_html": "<p>I have a good knowledge about AWS now compare to previous</p>",
+		"created_formatted_with_time_since": "3주 전"
+	}, {
+		"_class": "course_review",
+		"id": 134139930,
+		"content": "La práctica después de cada explicación me ayudó mucho a entender los principios básicos de AWS.",
+		"rating": 4.0,
+		"created": "2023-01-25T12:02:39-08:00",
+		"modified": "2023-01-26T15:07:20-08:00",
+		"user_modified": "2023-01-25T12:03:26-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Juan Pablo Gottardini",
+			"name": "Juan Pablo",
+			"display_name": "Juan Pablo Gottardini",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "JG",
+			"tracking_id": "KZ4s2BaDTwKiNdiI7zDO6w",
+			"public_display_name": "Juan Pablo G."
+		},
+		"response": null,
+		"content_html": "<p>La práctica después de cada explicación me ayudó mucho a entender los principios básicos de AWS.</p>",
+		"created_formatted_with_time_since": "1개월 전"
+	}, {
+		"_class": "course_review",
+		"id": 135779124,
+		"content": "It was well-paced and the lecturer was very clear with the hands-on",
+		"rating": 3.5,
+		"created": "2023-02-15T02:51:01-08:00",
+		"modified": "2023-02-16T15:06:33-08:00",
+		"user_modified": "2023-02-15T02:51:26-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Ifeanyi Okonkwo",
+			"name": "Ifeanyi",
+			"display_name": "Ifeanyi Okonkwo",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "IO",
+			"tracking_id": "FNKB40moRzSZ_PBiTJl6UA",
+			"public_display_name": "Ifeanyi O."
+		},
+		"response": null,
+		"content_html": "<p>It was well-paced and the lecturer was very clear with the hands-on</p>",
+		"created_formatted_with_time_since": "3주 전"
+	}, {
+		"_class": "course_review",
+		"id": 128844660,
+		"content": "MUY CLARO, DIRECTO Y CONCRETO CON BUEN NIVEL DE DOMINIO DE LAS HERRAMIENTAS Y SENCILLA FORMA DE ENSEÑAR Y EXPLICAR, GRACIAS",
+		"rating": 5.0,
+		"created": "2022-11-19T15:21:06-08:00",
+		"modified": "2022-11-20T15:12:16-08:00",
+		"user_modified": "2022-11-19T15:22:37-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Miguel Ángel Pineda García",
+			"name": "Miguel Ángel",
+			"display_name": "Miguel Ángel Pineda García",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "MP",
+			"tracking_id": "hP-8sFzoTBOrk8FKdWKxBg",
+			"public_display_name": "Miguel Ángel P."
+		},
+		"response": null,
+		"content_html": "<p>MUY CLARO, DIRECTO Y CONCRETO CON BUEN NIVEL DE DOMINIO DE LAS HERRAMIENTAS Y SENCILLA FORMA DE ENSEÑAR Y EXPLICAR, GRACIAS</p>",
+		"created_formatted_with_time_since": "3개월 전"
+	}, {
+		"_class": "course_review",
+		"id": 134035436,
+		"content": "Excellent course covering a great amount of material pertinent to Amazon Web Services.",
+		"rating": 5.0,
+		"created": "2023-01-24T08:17:54-08:00",
+		"modified": "2023-01-25T15:14:41-08:00",
+		"user_modified": "2023-01-24T08:18:53-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Randell Knight",
+			"name": "Randell",
+			"display_name": "Randell Knight",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/99347932_3931.jpg",
+			"initials": "RK",
+			"tracking_id": "w8mb53MLTbeBuJZHbJNDjg",
+			"public_display_name": "Randell K."
+		},
+		"response": null,
+		"content_html": "<p>Excellent course covering a great amount of material pertinent to Amazon Web Services.</p>",
+		"created_formatted_with_time_since": "1개월 전"
+	}, {
+		"_class": "course_review",
+		"id": 131628370,
+		"content": "The course is awesome but is there a way I can contact the lecture or someone because I have questions regarding the lessons",
+		"rating": 5.0,
+		"created": "2022-12-26T11:20:29-08:00",
+		"modified": "2022-12-27T15:08:15-08:00",
+		"user_modified": "2022-12-26T11:24:06-08:00",
+		"user": {
+			"_class": "user",
+			"title": "Thalente Bekwa",
+			"name": "Thalente",
+			"display_name": "Thalente Bekwa",
+			"image_50x50": "https://img-c.udemycdn.com/user/50x50/anonymous_3.png",
+			"initials": "TB",
+			"tracking_id": "5E-98eauT8q8JjtCxlXHRg",
+			"public_display_name": "Thalente B."
+		},
+		"response": null,
+		"content_html": "<p>The course is awesome but is there a way I can contact the lecture or someone because I have questions regarding the lessons</p>",
+		"created_formatted_with_time_since": "2개월 전"
+	}]
+}

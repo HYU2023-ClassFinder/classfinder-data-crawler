@@ -1,3 +1,64 @@
 {
-    
+	"_class": "course",
+	"id": 5128640,
+	"title": "[Part 3] Create Your Own Game in the MapleStory Worlds",
+	"visible_instructors": [{
+		"_class": "user",
+		"id": 152469426,
+		"title": "Sun Ah Min",
+		"name": "Sun Ah",
+		"display_name": "Sun Ah Min",
+		"job_title": "Educreator of the MapleStory Worlds",
+		"image_50x50": "https://img-c.udemycdn.com/user/50x50/152469426_c5c3_2.jpg",
+		"image_100x100": "https://img-c.udemycdn.com/user/100x100/152469426_c5c3_2.jpg",
+		"initials": "SM",
+		"url": "/user/sun-ah-min/"
+	}],
+	"num_subscribers": 753,
+	"avg_rating_recent": 0,
+	"primary_category": {
+		"_class": "course_category",
+		"id": 288,
+		"title": "개발",
+		"url": "/courses/development/",
+		"icon_class": "udi udi-development",
+		"type": "category",
+		"title_cleaned": "development",
+		"channel_id": 1640
+	},
+	"primary_subcategory": {
+		"_class": "course_subcategory",
+		"id": 14,
+		"title": "게임 개발",
+		"url": "/courses/development/game-development/",
+		"icon_class": "udi udi-game-development",
+		"type": "subcategory",
+		"title_cleaned": "game-development",
+		"channel_id": 1662
+	},
+	"locale": {
+		"_class": "locale",
+		"locale": "en_US",
+		"title": "English (US)",
+		"english_title": "English (US)",
+		"simple_english_title": "English"
+	},
+	"estimated_content_length": 78,
+	"context_info": {
+		"category": {
+			"id": 288,
+			"title": "개발",
+			"url": "/courses/development/",
+			"tracking_object_type": "cat"
+		},
+		"subcategory": null,
+		"label": {
+			"id": 25642,
+			"display_name": "2D 게임 개발",
+			"title": "2D 게임 개발",
+			"topic_channel_url": "/topic/2d-game-development/",
+			"url": "/topic/2d-game-development/",
+			"tracking_object_type": "cl"
+		}
+	}
 }

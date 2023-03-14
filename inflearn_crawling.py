@@ -94,6 +94,7 @@ for page in range(1, eval(maxPage[-1].attrs['fxd-data'])['slug']+1):
         #         pass
         #     curID = curID + 1
 
+        
         # try:
         #     reviewCount = int(innerSoup.select_one('.dashboard-star__text').string.rstrip("개의 수강평"))
         # except AttributeError:

@@ -1,0 +1,18 @@
+<div class="component-margin">
+ <h2 class="ud-heading-xl requirements--title--2wsPe" data-purpose="requirements-title">
+  요구 사항
+ </h2>
+ <ul class="ud-unstyled-list ud-block-list">
+  <li>
+   <div class="ud-block-list-item ud-block-list-item-small ud-block-list-item-tight ud-block-list-item-neutral ud-text-sm">
+    <svg aria-hidden="true" class="ud-icon ud-icon-xsmall ud-icon-color-neutral ud-block-list-item-icon" focusable="false">
+     <use xlink:href="#icon-bullet">
+     </use>
+    </svg>
+    <div class="ud-block-list-item-content">
+     Basic understanding of computer networking
+    </div>
+   </div>
+  </li>
+ </ul>
+</div>

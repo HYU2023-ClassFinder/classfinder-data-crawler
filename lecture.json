@@ -1,0 +1,63 @@
+{
+	"_class": "course",
+	"id": 1331946,
+	"title": "Amazon Web Services (AWS) - Zero to Hero",
+	"visible_instructors": [{
+		"_class": "user",
+		"title": "BackSpace Academy",
+		"name": "BackSpace",
+		"display_name": "BackSpace Academy",
+		"job_title": "The fastest route to cloud certification.",
+		"image_50x50": "https://img-c.udemycdn.com/user/50x50/27829848_1d83.jpg",
+		"image_100x100": "https://img-c.udemycdn.com/user/100x100/27829848_1d83.jpg",
+		"initials": "BA",
+		"url": "/user/backspace-academy/"
+	}],
+	"num_subscribers": 267612,
+	"avg_rating_recent": 4.4788327,
+	"primary_category": {
+		"_class": "course_category",
+		"id": 294,
+		"title": "IT 및 소프트웨어",
+		"url": "/courses/it-and-software/",
+		"icon_class": "udi udi-it-and-software",
+		"type": "category",
+		"title_cleaned": "it-and-software",
+		"channel_id": 1646
+	},
+	"primary_subcategory": {
+		"_class": "course_subcategory",
+		"id": 140,
+		"title": "기타 IT 및 소프트웨어",
+		"url": "/courses/it-and-software/other-it-and-software/",
+		"icon_class": "udi udi-line-star",
+		"type": "subcategory",
+		"title_cleaned": "other-it-and-software",
+		"channel_id": 1774
+	},
+	"locale": {
+		"_class": "locale",
+		"locale": "en_US",
+		"title": "English (US)",
+		"english_title": "English (US)",
+		"simple_english_title": "English"
+	},
+	"estimated_content_length": 176,
+	"context_info": {
+		"category": {
+			"id": 294,
+			"title": "IT 및 소프트웨어",
+			"url": "/courses/it-and-software/",
+			"tracking_object_type": "cat"
+		},
+		"subcategory": null,
+		"label": {
+			"id": 4452,
+			"display_name": "Amazon AWS",
+			"title": "Amazon AWS",
+			"topic_channel_url": "/topic/amazon-aws/",
+			"url": "/topic/amazon-aws/",
+			"tracking_object_type": "cl"
+		}
+	}
+}

@@ -1,34 +1,23 @@
+import requests
 import json
+import time
+import random
+import selenium
+import sqlite3
+from bs4 import BeautifulSoup
+import re
+import undetected_chromedriver as uc
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import StaleElementReferenceException, TimeoutException, NoSuchElementException
+from selenium.webdriver.chrome.options import Options
 
+resp = requests.get('https://www.udemy.com/course/amazon-web-services-aws-v/')
+html = resp.text
+soup = BeautifulSoup(html, 'html.parser')
+tar = soup.find(class_ = 'tabs-module--tabs-container--f-q9T').findChildren(recursive=False)
 
-
-car_group = dict()
-
-
-
-k5 = dict()
-
-k5["price"] = "5000"
-
-k5["year"] = "2015"
-
-car_group["K52"] = k5
-
-
-
-avante = dict()
-
-avante["price"] = "3000"
-
-avante["year"] = "2014"
-
-car_group["Avante2"] = avante
-
-
-
-#json 파일로 저장
-
-with open('./test.json', 'a', encoding='utf-8') as make_file:
-
-    json.dump(car_group, make_file, indent="\t")
-
+print(tar[2].get('id'))
